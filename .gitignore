@@ -1,0 +1,61 @@
+# ROS build artifacts
+build/
+devel/
+install/
+log/
+logs/
+
+# Generated message/service files
+msg_gen/
+srv_gen/
+**/msg/_*.py
+**/srv/_*.py
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# C/C++ build artifacts
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# ROS bag files
+*.bag
+
+# Launch file generated configs
+*.launch~
+
+# Documentation build
+doc/html/
+doc/latex/
+
+# Test results
+test_results/
+gtest/
