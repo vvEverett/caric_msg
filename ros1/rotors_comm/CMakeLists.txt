@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(rotors_comm)
+project(rotors_comm_msgs)
 find_package(catkin REQUIRED
   COMPONENTS cmake_modules geometry_msgs message_generation octomap_msgs std_msgs nav_msgs)
 
